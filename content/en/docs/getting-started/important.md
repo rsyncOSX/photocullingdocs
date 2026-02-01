@@ -20,23 +20,36 @@ Please review these important points before using PhotoCulling for the first tim
 
 #### What is Photo Culling?
 
-Photo culling is the process of reviewing a batch of images and selecting only the best ones to keep. This is an essential workflow for photographers who shoot in burst mode or take many photos during a session. Culling helps you:
+Photo culling is the process of reviewing images from a photo shoot and selecting only the best ones for professional editing. Your typical workflow is:
 
-- Eliminate out-of-focus or blurry shots
-- Remove duplicates and similar frames
-- Identify and separate high-quality "keeper" images
-- Organize your photo library efficiently
-- Reduce storage requirements
+1. Copy images from your camera to a temporary catalog on your Mac
+2. Review each photo and mark the ones worth keeping
+3. Rate the marked photos based on quality and editing priority
+4. Copy only the marked and rated photos to a final catalog
+5. Import the final catalog into your photo editing application
+
+This streamlined process helps you:
+
+- Quickly identify and select high-quality shots
+- Eliminate out-of-focus or blurry photos
+- Remove duplicates and similar frames from burst mode
+- Prepare only your best images for professional editing
+- Maintain organization before the editing phase
 
 ### Before You Start Culling
 
-1. **Backup Your Photos**: Always maintain backups of your original photos before culling. PhotoCulling marks images for culling but ensure you have safe copies elsewhere.
+1. **Organize Your Source**: Copy images from your camera to a temporary catalog on your Mac before starting the culling process.
 
-2. **Understand Your Workflow**: Know your culling criteria before starting. What makes a good photo for you? What should be removed?
+2. **Understand Your Criteria**: Know what makes a photo worth keeping for you. What technical and compositional standards will you use?
 
-3. **Have Good Previews**: Ensure you have a fast, responsive system with adequate memory for smooth previewing of large batches of images.
+3. **Have Space Ready**: Ensure you have sufficient disk space for:
+   - The temporary catalog from your camera
+   - The final catalog with marked and rated photos
+   - Your photo editing application workspace
 
-4. **Use External Storage Wisely**: If working with photos on external drives, ensure they remain connected throughout your culling session.
+4. **Prepare for Editing**: Have your photo editing application ready to import the final catalog after culling is complete.
+
+5. **Use External Storage Wisely**: If working with photos on external drives, ensure they remain connected throughout your culling session.
 
 ### Privacy & Security
 

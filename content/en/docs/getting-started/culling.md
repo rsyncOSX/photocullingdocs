@@ -10,9 +10,9 @@ categories = ["general information"]
 
 This guide walks you through the process of culling photos in PhotoCulling, from scanning your library to finalizing your selections.
 
-### Step 1: Scanning Your Photo Library
+### Step 1: Select Your Temporary Catalog
 
-When you first select a folder, PhotoCulling scans all images and generates previews. This process reads your photo metadata and creates a visual index of all images in the selected directory.
+After copying images from your camera to a temporary catalog on your Mac, select that folder in PhotoCulling. The application scans all images and generates previews for quick review. This process reads your photo metadata and creates a visual index of all images in the selected directory.
 
 {{< figure src="/images/photoculling/scanning.png" alt="PhotoCulling scanning photo library" position="center" style="border-radius: 8px;" >}}
 
@@ -36,12 +36,13 @@ Examine each photo carefully. You can view images at normal size first to get a 
 
 {{< figure src="/images/photoculling/detailsnotzoomed.png" alt="Detailed view without zoom" position="center" style="border-radius: 8px;" >}}
 
-#### Marking Photos
+#### Marking and Rating Photos
 
-For each image, decide whether to keep or cull it:
+For each image, decide whether it's worth keeping:
 
-- **Keep**: Mark high-quality photos that you want to retain
-- **Cull**: Mark photos you want to remove
+- **Mark as Keep**: Select high-quality photos that you want to retain for editing
+- **Leave Unmarked**: Photos you don't want to include in your final catalog
+- **Rate Quality**: Assign star ratings or priority levels to marked photos based on editing priority
 - **Review Later**: Mark questionable photos for later review
 
 #### Keyboard Shortcuts
@@ -72,23 +73,24 @@ Zoomed view allows you to:
 
 This is especially useful when deciding between very similar shots from burst mode.
 
-### Step 5: Review Your Culling
+### Step 5: Review Your Selections
 
-After marking all photos, take time to review your decisions:
+After marking and rating all photos, take time to review your decisions:
 
-1. **Filter by Status**: View only photos marked as "Cull" or "Review Later"
-2. **Double-Check**: Re-examine borderline cases
-3. **Adjust Marks**: Move any incorrectly marked photos to the right category
+1. **Filter by Status**: View only photos marked as "Keep" or "Review Later"
+2. **Verify Ratings**: Review the star ratings and priority levels you assigned
+3. **Double-Check**: Re-examine borderline cases
+4. **Adjust Marks**: Update any incorrectly marked or rated photos
 
-### Step 6: Finalize and Export
+### Step 6: Copy Marked Photos to Final Catalog
 
-Once satisfied with your culling decisions:
+Once satisfied with your selections:
 
-1. **Delete Marked Photos**: Permanently remove photos marked as "Cull"
-2. **Export Keepers**: Your "Keep" photos remain in place or can be organized into a separate folder
-3. **Archive**: Create a backup of your culled collection
+1. **Copy Marked Photos**: PhotoCulling copies only the marked and rated photos to your final catalog
+2. **Organize for Editing**: The final catalog is now ready to import into your photo editing application
+3. **Keep Original**: Your original temporary catalog remains untouched, preserving all images from your shoot
 
-> **Important**: Before deleting any photos, ensure you have a complete backup of your original library stored safely elsewhere.
+> **Note**: Only marked and rated photos are copied to the final catalog. Unmarked photos remain in the temporary catalog but are not copied to your editing workflow.
 
 ### Pro Tips for Efficient Culling
 
@@ -97,6 +99,10 @@ Once satisfied with your culling decisions:
 2. **Use Consistent Criteria**: Decide on your standards (sharpness, composition, exposure) before starting.
 
 3. **Compare Burst Shots**: Use the grid view to compare similar shots side-by-side, selecting the best from each burst.
+
+4. **Rate as You Go**: Assign ratings to marked photos based on editing priority—5 stars for must-edits, 3 stars for secondary choices.
+
+5. **Workflow Ready**: Once copied to your final catalog, immediately import into your photo editing application to maintain workflow momentum.
 
 4. **Trust Your Instincts**: If you have doubts about a photo, mark it for review rather than keeping questionable shots.
 

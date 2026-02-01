@@ -12,15 +12,15 @@ categories = ["general information"]
 
 ### What is a Photo Culling Application?
 
-A photo culling application is specialized software designed to help photographers efficiently review, organize, and select the best images from a large collection. The primary goal is to:
+A photo culling application is specialized software designed to help photographers efficiently review, organize, and select the best images from a photo shoot. The typical workflow is:
 
-- **Quickly filter** out-of-focus, blurry, or unwanted shots
-- **Identify duplicates** and near-duplicate frames
-- **Isolate high-quality keepers** for editing and post-processing
-- **Organize your workflow** by marking and categorizing images
-- **Save storage space** by removing unnecessary photos
+1. **Copy from Camera**: Images are copied from your camera to a temporary catalog on your Mac
+2. **Review & Mark**: You review each image and mark the keepers you want to keep
+3. **Rate Images**: Rate the marked photos based on quality and editing priority
+4. **Copy Keepers**: Only the marked and rated photos are copied to a final catalog for editing
+5. **Edit**: Use a dedicated photo editing application to edit the selected images
 
-PhotoCulling makes this process fast and intuitive, allowing you to cull hundreds of photos in a reasonable timeframe.
+PhotoCulling makes this process fast and intuitive, allowing you to review hundreds of photos in a reasonable timeframe and prepare only your best shots for professional editing.
 
 ### Launching PhotoCulling
 
