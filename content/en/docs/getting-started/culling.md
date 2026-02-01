@@ -36,6 +36,14 @@ Examine each photo carefully. You can view images at normal size first to get a 
 
 {{< figure src="/images/photoculling/detailsnotzoomed.png" alt="Detailed view without zoom" position="center" style="border-radius: 8px;" >}}
 
+#### Persistent Marking and Session Recovery
+
+PhotoCulling automatically saves your marking decisions as you work, allowing you to pause and resume your culling session at any time. Your marks, ratings, and review status are saved to disk, so if you need to continue later, simply reopen the same folder and your progress will be restored.
+
+#### Thumbnail Performance
+
+Thumbnails are generated and kept in memory during your session for fast navigation. PhotoCulling also maintains a disk cache of thumbnails for previously reviewed catalogs, enabling instant loading when you return to the same folder in the future.
+
 #### Marking and Rating Photos
 
 For each image, decide whether it's worth keeping:

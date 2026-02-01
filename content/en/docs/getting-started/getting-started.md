@@ -42,6 +42,10 @@ PhotoCulling works with any folder containing supported image formats:
 
 Use the folder selection dialog to navigate to your photo directory. PhotoCulling will scan and display all compatible images.
 
+#### Automatic JPG Generation
+
+PhotoCulling can create JPG files (approximately 1 MB each) from all RAW files in your temporary catalog. These JPGs are stored in a designated temporary location and can be viewed using the standard macOS Photo Viewer application, providing quick preview access without requiring a dedicated RAW viewer. This is particularly useful for fast browsing or sharing previews with colleagues during the culling process.
+
 ### The Interface
 
 Once you've selected a folder, PhotoCulling displays your photo library in a clear, organized layout:
