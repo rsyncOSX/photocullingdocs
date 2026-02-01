@@ -51,7 +51,4 @@ All packages track the `main` branch and are updated to latest revisions as of v
    - Repository: https://github.com/rsyncOSX/RsyncProcessStreaming
    - Purpose: Real-time rsync output streaming and progress tracking
 
-8. **RsyncAnalyse** - Enhanced rsync output analysis
-   - Repository: https://github.com/rsyncOSX/RsyncAnalyse
-   - Purpose: Advanced parsing and analysis of rsync command output
   
