@@ -4,21 +4,25 @@ linkTitle: About
 menu: {main: {weight: 10}}
 ---
 
-{{% blocks/cover title="About" height="auto" %}}
+{{% blocks/cover title="About PhotoCulling" height="auto" %}}
 
 {{% /blocks/cover %}}
 
 {{% blocks/section color="primary" %}}
 
-Hello,
+## About PhotoCulling
 
-If you have ideas or feedback about RsyncUI, feel free to reach me at thomeven@gmail.com.
+Hello!
 
-I started RsyncOSX in August 2016 as a way to learn Swift. After eight years of releases, it was archived in August 2024. RsyncUI, built with SwiftUI, began in late 2020 and is still actively developed.
+If you have ideas, feedback, or suggestions about PhotoCulling, please reach out to me at thomeven@gmail.com. I'd love to hear from you.
 
-I hold a master's degree in computing science, earned in the early 1990s when Linux and the public Internet were emerging. The Web itself was invented just a few years earlier, in 1989 at CERN. I'm a solo developer focused on keeping RsyncUI stable and usable. I'm not a professional UI designer, so parts of the interface may feel dense.
+### Background
 
-Maintaining RsyncUI is a hobby. If you find it helpful, a GitHub star is appreciated—it keeps me motivated. I retired in May 2022 at age 62. Outside coding, I am a [bird photographer](https://birdsofprey.netlify.app) who enjoys time in the Norwegian mountains. Grandchildren, photography, RsyncUI, and cross-country skiing keep me busy.
+I started RsyncOSX in August 2016 as a way to learn Swift, and after eight years of releases, it was archived in August 2024. RsyncUI, built with SwiftUI, began in late 2020 and continues to be actively developed. PhotoCulling represents my latest venture into building specialized macOS applications with modern Swift technologies.
+
+I hold a master's degree in computing science, earned in the early 1990s when Linux and the public Internet were emerging. The Web itself was invented just a few years earlier, in 1989 at CERN. As a solo developer, I'm focused on creating stable, usable applications. I'm not a professional UI designer, so I appreciate user feedback that helps improve the interface.
+
+I retired in May 2022 at age 62. Outside of coding, I'm an avid [bird photographer](https://birdsofprey.netlify.app) who spends time in the Norwegian mountains. Grandchildren, photography, and cross-country skiing keep me busy alongside my coding projects.
 
 {.text-center}
 
@@ -26,13 +30,15 @@ Maintaining RsyncUI is a hobby. If you find it helpful, a GitHub star is appreci
 
 {{% blocks/section color="white" %}}
 
-Although I am an educated IT professional, most of my career was in IT management, not hands-on development. My coding experience comes from personal projects like RsyncUI and RsyncOSX. Search, documentation, and learning from other developers' examples have been invaluable.
+### Development Approach
 
-I keep learning with every Swift, SwiftUI, and Xcode release. Major changes and updates are logged in the [changelog](/blog/). I rely on tools such as [SwiftLint](https://github.com/realm/SwiftLint), [SwiftFormat](https://github.com/nicklockwood/SwiftFormat), and [periphery](https://github.com/peripheryapp/periphery) to improve code quality.
+Although I've worked as an IT professional for most of my career, much of that time was spent in IT management rather than hands-on development. My coding experience comes from personal projects like PhotoCulling, RsyncUI, and RsyncOSX. I've learned invaluably from documentation, online resources, and studying examples from other developers.
 
-**Why Not the App Store?**
+With every Swift, SwiftUI, and Xcode release, I continue learning and improving my craft. Major changes and updates are documented in the [changelog](/blog/releases/). I use quality assurance tools such as [SwiftLint](https://github.com/realm/SwiftLint), [SwiftFormat](https://github.com/nicklockwood/SwiftFormat), and [periphery](https://github.com/peripheryapp/periphery) to maintain high code standards.
 
-One crucial requirement for macOS applications on the Apple App Store, as outlined by Apple, is: *"To distribute a macOS app through the Mac App Store, you must enable the App Sandbox capability."* The App Sandbox imposes certain restrictions on the functionality of an application within its environment. While it is essential for enabling passwordless login via SSH to remote servers, it also causes some limitations with these features when enabled.
+### Build and Distribution
+
+PhototCulling is built with Swift and SwiftUI, utilizing modern macOS APIs. The application is digitally signed and notarized by Apple to ensure security and integrity. This means you can trust that the application hasn't been tampered with and meets Apple's security standards.
 
 {.text-center}
 
@@ -40,9 +46,11 @@ One crucial requirement for macOS applications on the Apple App Store, as outlin
 
 {{% blocks/section color="primary" %}}
 
-**How are these pages constructed?**
+### About This Website
 
-Hugo, a static site generator, serves as the web framework responsible for constructing these pages. The source code for this website is hosted on GitHub. Netlify, the web server, automatically detects changes made to the main branch and promptly rebuilds the server. The Hugo theme utilized is [docsy](https://github.com/google/docsy), another open-source project hosted on GitHub. Upon making modifications or additions to pages, I commit these changes to GitHub, and Netlify promptly constructs the new server within seconds.
+This documentation is built with Hugo, a fast and flexible static site generator. The source code is hosted on GitHub, and Netlify automatically detects changes to the main branch, rebuilding the site within seconds. The theme used is [docsy](https://github.com/google/docsy), a clean and responsive documentation theme also hosted on GitHub.
+
+This approach ensures the documentation is always up-to-date and easily maintainable.
 
 {.text-center}
 

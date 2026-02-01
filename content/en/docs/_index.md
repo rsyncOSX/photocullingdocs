@@ -1,23 +1,33 @@
 ---
-title: PhotoCulling
+title: PhotoCulling Documentation
 linkTitle: Documentation
 menu: { main: { weight: 20 } }
 ---
 
-*PhotoCulling* is a macOS application built with Swift and SwiftUI for macOS Tahoe.  PhotoCulling is free and open source. Please review the MIT license before you start using it. 
+## Welcome to PhotoCulling
+
+**PhotoCulling** is a powerful, native macOS application built with Swift and SwiftUI for macOS Tahoe. Designed specifically for photographers, it streamlines the photo culling process, helping you quickly identify and keep only your best shots.
+
+### Key Features
+
+- **Fast and Responsive**: Built natively with SwiftUI for optimal performance on modern Macs
+- **User-Friendly Interface**: Intuitive controls designed for efficient culling workflows
+- **Privacy-First**: All data stays on your Mac—no cloud synchronization or data collection
+- **Secure**: Digitally signed and notarized by Apple
+- **Free and Open Source**: Available under the MIT license
 
 <div class="alert alert-secondary" role="alert">
 
-PhotoCulling is *digitally signed* and *notarized* by Apple to protect against tampering. PhotoCulling is also a sandboxed.
+**Security & Privacy**: PhotoCulling is digitally signed and notarized by Apple to protect against tampering. It runs as a sandboxed application, ensuring your data and system remain secure.
 
 </div>
 
-### Privacy statement
+### Installation
 
-PhotoCulling is a desktop-only app with no server component. It does not send data off your Mac. Data stay local.
+PhotoCulling is distributed as a Universal macOS Binary, running natively on both Apple Silicon and Intel Macs. You can download the latest version from [GitHub Releases](https://github.com/rsyncOSX/PhotoCulling/releases/).
 
-### Changelog and Installation
+For security, please verify the SHA-256 hash after downloading. Current updates and release notes are available in the [changelog](/blog/releases/).
 
-For current updates, see the [changelog](/blog/). RsyncUI ships as a Universal macOS Binary and runs natively on Apple Silicon and Intel Macs.
+### Getting Started
 
-PhotoCulling can be installed from [GitHub](https://github.com/rsyncOSX/PhotoCulling/releases/). Please verify the SHA-256 hash manually.
+New to PhotoCulling? Start with the [Getting Started](/docs/getting-started/) guide to learn the basics and begin culling your photo library efficiently.
