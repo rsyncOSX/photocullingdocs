@@ -34,11 +34,7 @@ Once opened, the main interface presents you with options to browse and select a
 
 PhotoCulling works with any folder containing supported image formats:
 
-- **JPEG** (.jpg, .jpeg)
-- **HEIF** (.heif, .heic)
-- **RAW formats** (Canon, Nikon, Sony, etc.)
-- **PNG** (.png)
-- **TIFF** (.tif, .tiff)
+- **Sony RAW formats** (Sony A1 mkI & mkII ARW files)
 
 Use the folder selection dialog to navigate to your photo directory. PhotoCulling will scan and display all compatible images.
 

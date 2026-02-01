@@ -55,17 +55,16 @@ For each image, decide whether it's worth keeping:
 
 #### Keyboard Shortcuts
 
-Use these keyboard shortcuts for efficient culling:
+Use these keyboard shortcuts for efficient culling (the Shortcuts may change):
 
 | Action | Shortcut |
 |--------|----------|
-| Mark as Keep | <kbd>K</kbd> or <kbd>Right Arrow</kbd> |
-| Mark as Cull | <kbd>C</kbd> or <kbd>Left Arrow</kbd> |
-| Toggle Review Later | <kbd>R</kbd> |
-| Move to Next | <kbd>→</kbd> or <kbd>↓</kbd> |
-| Move to Previous | <kbd>←</kbd> or <kbd>↑</kbd> |
-| Zoom In | <kbd>+</kbd> or <kbd>Scroll Up</kbd> |
-| Zoom Out | <kbd>-</kbd> or <kbd>Scroll Down</kbd> |
+| Mark as Keep | <kbd>T</kbd> or <kbd>By rating</kbd> |
+| Unmark as Mark | <kbd>T</kbd> if selected|
+| Move to Next | <kbd>↓</kbd> |
+| Move to Previous | <kbd>↑</kbd> |
+| Zoom In | <kbd>double click</kbd> on row or photo |
+| Zoom Out | <kbd>double click</kbd> on row or photo |
 
 ### Step 4: Inspect Details
 

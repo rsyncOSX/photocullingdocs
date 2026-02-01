@@ -58,25 +58,13 @@ This streamlined process helps you:
 - Your photo library is completely private and under your control
 - The application is sandboxed for additional security
 
-### Tips for Efficient Culling
-
-1. **Work in Batches**: Don't try to cull thousands of photos in one session. Break it into manageable batches.
-
-2. **Use Keyboard Shortcuts**: Learn the keyboard shortcuts for faster marking and navigation.
-
-3. **Take Breaks**: Photo culling requires careful attention. Take regular breaks to maintain quality judgments.
-
-4. **Be Decisive**: Make quick decisions on each photo. If you're unsure, mark for review later.
-
-5. **Review Your Culls**: After marking photos, review your decisions before permanently removing any images.
-
 ### Troubleshooting
 
 If you encounter any issues:
 
 - Ensure macOS Tahoe or later is installed
 - Restart PhotoCulling if the interface becomes unresponsive
-- Check that photos are stored in a supported format (JPEG, HEIF, RAW, etc.)
+- Check that photos are stored in a supported format (only Sony A1 mkI and mkII ARW files)
 - Verify you have read/write permissions for photo directories
 
 For detailed help, visit the [Getting Started](/docs/getting-started/) guide or check the latest [changelog](/blog/releases/).
