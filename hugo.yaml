@@ -48,9 +48,9 @@ imaging:
 languages:
   en:
     languageName: English
-    title: RsyncUI
+    title: PhotoCulling
     params:
-      description: How to use RsyncUI
+      description: How to use PhotoCulling
 markup:
   goldmark:
     parser:
