@@ -10,7 +10,7 @@ menu: { main: { weight: 20 } }
 
 <div class="alert alert-primary" role="alert">
 
-Not yet released. To be released sometime in February 2026. 
+Not yet released. To be released as a beta version sometime in February 2026. 
 
 </div>
 
@@ -25,6 +25,8 @@ Not yet released. To be released sometime in February 2026.
 <div class="alert alert-secondary" role="alert">
 
 **Security & Privacy**: PhotoCulling is digitally signed and notarized by Apple to protect against tampering. It runs as a sandboxed application, ensuring your data and system remain secure.
+
+The actual copy of ARW files from *source* to *destination* is non-destructive. It utilizes the default `/usr/bin/rsync` as part of macOS. Prior to the actual copy of files, a `--dry-run` parameter can be employed to simulate the files that will be copied to the destination.
 
 </div>
 
