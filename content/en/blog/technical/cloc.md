@@ -1,29 +1,29 @@
 +++
 author = "Thomas Evensen"
 title = "Number of files"
-date = "2026-02-01"
+date = "2026-02-02"
 tags = ["number of files"]
 categories = ["technical details"]
 +++
 
-Numbers updated: February 1, 2026 (version 0.5.0). There is also a [Quality Analysis Report](https://github.com/rsyncOSX/PhotoCulling/blob/main/QUALITY_ANALYSIS.md) of the code for the app.
+Numbers updated: February 2, 2026 (version 0.5.0). There is also a [Quality Analysis Report](https://github.com/rsyncOSX/PhotoCulling/blob/main/QUALITY_ANALYSIS.md) of the code for the app.
 
 PhotoCulling depends only on the standard Swift and SwiftUI toolchain—no external libraries.
 
 ```
-cloc DecodeEncodeGeneric/Sources ParseRsyncOutput/Sources RsyncArguments/Sources PhotoCulling/PhotoCulling RsyncProcessStreaming
-/Sources
+cloc DecodeEncodeGeneric/Sources ParseRsyncOutput/Sources RsyncArguments/Sources PhotoCulling/PhotoCulling RsyncProcessSt
+reaming/Sources
       74 text files.
       74 unique files.                              
-       7 files ignored.
+       9 files ignored.
 
-github.com/AlDanial/cloc v 2.08  T=0.02 s (3017.8 files/s, 307041.5 lines/s)
+github.com/AlDanial/cloc v 2.08  T=0.03 s (2218.8 files/s, 223771.8 lines/s)
 -------------------------------------------------------------------------------
 Language                     files          blank        comment           code
 -------------------------------------------------------------------------------
-Swift                           74           1036           1044           5449
+Swift                           74           1026           1043           5394
 -------------------------------------------------------------------------------
-SUM:                            74           1036           1044           5449
+SUM:                            74           1026           1043           5394
 -------------------------------------------------------------------------------
 ```
 

@@ -6,7 +6,13 @@ menu: { main: { weight: 20 } }
 
 ## Welcome to PhotoCulling
 
-**PhotoCulling** is a powerful, native macOS application built with Swift and SwiftUI for macOS Tahoe. Designed specifically for photographers, it streamlines the photo culling process, helping you quickly identify and keep only your best shots.
+**PhotoCulling** is a robust, native macOS application developed using Swift and SwiftUI for *macOS Tahoe*. Tailored specifically for photographers, it simplifies the photo culling process, enabling users to swiftly identify and retain only their most exceptional photographs. The initial version exclusively supports culling *Sony A1 mkI and mkII* RAW files.
+
+<div class="alert alert-primary" role="alert">
+
+Not yet released. To be released sometime in February 2026. 
+
+</div>
 
 ### Key Features
 
