@@ -2,6 +2,7 @@
 author = "Thomas Evensen"
 title = "Culling Photos"
 date = "2026-02-01"
+weight = 4
 tags = ["culling"]
 categories = ["general information"]
 +++

@@ -2,6 +2,7 @@
 author = "Thomas Evensen"
 title = "Getting Started Guide"
 date = "2026-02-01"
+weight = 2
 tags = ["getting started"]
 categories = ["general information"]
 +++

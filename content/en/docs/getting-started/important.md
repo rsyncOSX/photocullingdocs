@@ -2,6 +2,7 @@
 author = "Thomas Evensen"
 title = "Important Information"
 date = "2026-02-01"
+weight = 1
 tags = ["important"]
 categories = ["general information"]
 +++
