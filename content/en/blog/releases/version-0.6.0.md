@@ -8,9 +8,9 @@ categories = ["changelog"]
 
 ### Version 0.6.0 - Feb 3, 2026 (beta release)
 
-Development Update:
+Beta version 0.6.0 is updated:
 
-The navigation within the application is undergoing frequent updates. Although not yet released, it is anticipated to be available within the next few days. The Zoomable view, which opens when a row is selected and Enter is pressed, will now remain in the background and automatically update when traversing the file table.
+The navigation within the application is undergoing frequent updates.The Zoomable view, which opens when a row is selected and Enter is pressed, will now remain in the background and automatically update when traversing the file table.
 
 This enhancement will facilitate easier viewing of photos and key information, tagging of photos, and automatic updates of the Zoomable view when a closer examination is required.
 
