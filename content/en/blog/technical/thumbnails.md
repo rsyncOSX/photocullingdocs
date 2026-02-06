@@ -115,7 +115,7 @@ Manages persistent storage of thumbnail JPEGs on disk.
 
 ```swift
 actor DiskCacheManager {
-    // Location: ~/Library/Caches/no.blogspot.PhotoCulling/Thumbnails/
+    // Location: ~/Library/Containers/no.blogspot.PhotoCulling/Data/Library/Caches/no.blogspot.PhotoCulling/Thumbnails/
     let cacheDirectory: URL
 }
 ```
@@ -241,7 +241,7 @@ let config = CacheConfig.forThumbnailSize(targetSize, costPerPixel: costPerPixel
 
 ### Disk Cache (Persistent Storage)
 
-**Location:** `~/Library/Caches/no.blogspot.PhotoCulling/Thumbnails/`
+**Location:** `~/Library/Containers/no.blogspot.PhotoCulling/Data/Library/Caches/no.blogspot.PhotoCulling/Thumbnails`
 
 **Format:** JPEG compressed at 70% quality
 ```swift
