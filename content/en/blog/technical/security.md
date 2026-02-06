@@ -1,8 +1,8 @@
 +++
 author = "Thomas Evensen"
-title = "Sequrity"
+title = "Security"
 date = "2026-02-05"
-tags = ["sequrity"]
+tags = ["security"]
 categories = ["technical details"]
 +++
 
