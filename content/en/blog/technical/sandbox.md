@@ -276,3 +276,76 @@ PhotoCulling's security-scoped URL implementation adheres to Apple's sandbox gui
 | **Fallback Strategy** | Direct path access if bookmark fails | Graceful degradation |
 | **Audit Trail** | OSLog captures all access attempts | Security debugging and compliance |
 
+### Error Handling & Resilience
+
+The implementation handles three failure modes:
+
+**1. Bookmark Stale (User moved folder)**
+```swift
+if isStale {
+    Logger.process.warning("Bookmark is stale for \(key)")
+    // Could refresh by having user re-select
+    // Or use fallback path
+}
+```
+
+**2. Bookmark Resolution Fails**
+```swift
+} catch {
+    Logger.process.errorMessageOnly(
+        "Bookmark resolution failed: \(error)"
+    )
+    return tryFallbackPath(...)  // Try direct access instead
+}
+```
+
+**3. Direct Access Denied**
+```swift
+guard url.startAccessingSecurityScopedResource() else {
+    Logger.process.errorMessageOnly("Failed to start accessing")
+    return nil  // Operation cannot proceed
+}
+```
+
+### Best Practices Demonstrated
+
+1. **Always pair start/stop calls** ✅
+   - Use `defer` for guaranteed cleanup
+   - Never leave access "hanging"
+
+2. **Handle both paths (bookmark + fallback)** ✅
+   - Bookmarks are primary (persistent)
+   - Fallback ensures resilience
+
+3. **Log access attempts** ✅
+   - Enables security auditing
+   - Helps with debugging user issues
+
+4. **Check return values** ✅
+   - `startAccessingSecurityScopedResource()` can fail
+   - Always guard the return value
+
+5. **Detect stale bookmarks** ✅
+   - Use `bookmarkDataIsStale` to detect moved files
+   - Can trigger user re-selection
+
+### Future Improvements
+
+1. **Refresh Stale Bookmarks**
+   - When `isStale` is detected, prompt user to reselect
+   - Automatically create new bookmark
+
+2. **Bookmark Management UI**
+   - Show all bookmarked folders
+   - Allow users to revoke/refresh bookmarks
+   - Display bookmark creation date
+
+3. **Access Duration Tracking**
+   - Monitor how long URLs remain accessed
+   - Alert on unusually long access durations
+
+4. **Batch Operations**
+   - Consider shared access context for multiple files
+   - Reduce start/stop overhead for bulk operations
+
+---

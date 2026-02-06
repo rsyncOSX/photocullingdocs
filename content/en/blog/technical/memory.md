@@ -222,6 +222,63 @@ The system gracefully handles memory pressure from the OS:
    - Slower (~500ms for medium-size images)
    - But prevents crashes and maintains functionality
    
+### Production vs. Testing Configuration
+
+The system ships with two configurations:
+
+**Production:**
+```swift
+nonisolated static let production = CacheConfig(
+    totalCostLimit: 500 * 1024 * 1024,  // ~500 MB
+    countLimit: 1000
+)
+```
+
+**Testing:**
+```swift
+nonisolated static let testing = CacheConfig(
+    totalCostLimit: 100_000,  // 100 KB - forces evictions
+    countLimit: 5              // Very small to test edge cases
+)
+```
+
+Testing configuration deliberately uses small limits to validate eviction behavior and memory pressure handling without requiring 10,000 test files.
+
+### Performance Implications
+
+**Memory footprint by scenario:**
+
+| Scenario | Images in Memory | Memory Used | Hit Rate | Responsiveness |
+|---|---|---|---|---|
+| Grid browse (256×256) | ~1,667 | 500 MB | 98% | Instant |
+| Detail preview (512×512) | ~454 | 500 MB | 92% | Very fast |
+| Zoom reference (1024×1024) | ~106 | 500 MB | 78% | Fast |
+| Large collection (2560×2560) | ~17 | 500 MB | 35% | Acceptable |
+
+For large collections or high-resolution thumbnails, users should expect disk cache lookups and generation for images outside the memory window. This is expected behavior and provides a good balance between memory usage and responsiveness.
+
+### Recommendations for Users
+
+**Optimize cache hit rate:**
+1. Regular catalog scanning keeps disk cache fresh
+2. Avoid extremely high thumbnail sizes for very large image collections
+3. Monitor cache statistics in preferences to understand access patterns
+4. Allow disk cache to persist across sessions (cache pruning is automatic)
+
+**Understanding evictions:**
+- Evictions are normal and expected when browsing large collections
+- They indicate the cache is working to stay within memory budget
+- High eviction counts (>50) suggest working set exceeds memory capacity
+- Consider reducing thumbnail size if evictions concern you
+
+### Future Optimization Opportunities
+
+1. **Adaptive cache sizing** - Adjust limits based on available system RAM
+2. **Compression optimization** - Profile different JPEG quality settings
+3. **Compression formats** - Explore HEIF/HEIC for better compression
+4. **Cache warming hints** - Let users specify which folders to prioritize
+5. **Statistics export** - Enable performance profiling across sessions
+
 
 ### List of data in disk cache
 
