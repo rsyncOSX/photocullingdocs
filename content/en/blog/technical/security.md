@@ -1,14 +1,10 @@
 +++
 author = "Thomas Evensen"
-title = "Security"
+title = "Security Scoped URLs"
 date = "2026-02-05"
 tags = ["security"]
 categories = ["technical details"]
 +++
-
-## Security Scoped URLs: Architecture & Implementation Details
-
-### Overview
 
 Security-scoped URLs are a cornerstone of macOS app sandbox security. PhotoCulling uses them extensively to gain persistent access to user-selected folders and files while maintaining sandbox compliance. This section provides a comprehensive walkthrough of how they work in the application.
 

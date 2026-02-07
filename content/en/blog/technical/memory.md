@@ -1,34 +1,12 @@
 +++
 author = "Thomas Evensen"
-title = "Cache policy"
+title = "Memory Cache policy"
 date = "2026-02-05"
 tags = ["memory"]
 categories = ["technical details"]
 +++
 
-### Cache statistics
-
-The PhotoCulling application provides a cache statistics display on the Sidebar. The initial figure represents a clean start, with no cache and no catalog selected.
-
-{{< figure src="/images/memory/start.png" alt="Selecting all tagged photos" position="center" style="border-radius: 8px;" >}}
-
-Upon scanning, 40 ARW files are processed, resulting in the creation of thumbnails. All thumbnails are loaded into memory, and 12 photos are tagged for selection. The thumbnails are 1024 pixels in size, which is sufficient for a swift selection process.
-
-{{< figure src="/images/memory/createthumbs.png" alt="Selecting all tagged photos" position="center" style="border-radius: 8px;" >}}
-
-The Sidebar may be hidden.
-
-{{< figure src="/images/memory/hidesidebar.png" alt="Selecting all tagged photos" position="center" style="border-radius: 8px;" >}}
-
-When the application is closed and restarted, the previous catalog is selected, and PhotoCulling searches the disk cache for thumbnails. All 40 are found, and all preselected tagged photos are copied into memory from disk cache. Consequently, the disk cache counts 40, while the memory cache counts 13.
-
-{{< figure src="/images/memory/newstart.png" alt="Selecting all tagged photos" position="center" style="border-radius: 8px;" >}}
-
-## Memory Management & Cache Model
-
-### Overview
-
-PhotoCulling implements a sophisticated three-tier caching architecture to manage thumbnail memory efficiently. The system automatically scales cache capacity based on thumbnail size while maintaining predictable memory behavior across different workloads.
+PhotoCulling implements a three-tier caching architecture to manage thumbnail memory efficiently. The system automatically scales cache capacity based on thumbnail size while maintaining predictable memory behavior across different workloads.
 
 **Architecture:**
 ```
@@ -322,3 +300,20 @@ drwxr-xr-x@  3 thomas  staff      96 Feb  5 15:35 ..
 -rw-r--r--@  1 thomas  staff  122582 Feb  5 18:11 4d3dfe3cf1291484a61fc31170eb6b52.jpg
 ```
 
+### Cache statistics
+
+The PhotoCulling application provides a cache statistics display on the Sidebar. The initial figure represents a clean start, with no cache and no catalog selected.
+
+{{< figure src="/images/memory/start.png" alt="Selecting all tagged photos" position="center" style="border-radius: 8px;" >}}
+
+Upon scanning, 40 ARW files are processed, resulting in the creation of thumbnails. All thumbnails are loaded into memory, and 12 photos are tagged for selection. The thumbnails are 1024 pixels in size, which is sufficient for a swift selection process.
+
+{{< figure src="/images/memory/createthumbs.png" alt="Selecting all tagged photos" position="center" style="border-radius: 8px;" >}}
+
+The Sidebar may be hidden.
+
+{{< figure src="/images/memory/hidesidebar.png" alt="Selecting all tagged photos" position="center" style="border-radius: 8px;" >}}
+
+When the application is closed and restarted, the previous catalog is selected, and PhotoCulling searches the disk cache for thumbnails. All 40 are found, and all preselected tagged photos are copied into memory from disk cache. Consequently, the disk cache counts 40, while the memory cache counts 13.
+
+{{< figure src="/images/memory/newstart.png" alt="Selecting all tagged photos" position="center" style="border-radius: 8px;" >}}

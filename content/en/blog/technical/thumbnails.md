@@ -6,8 +6,6 @@ tags = ["thumbnail"]
 categories = ["technical details"]
 +++
 
-## Overview
-
 PhotoCulling uses a sophisticated thumbnail generation and caching system designed to handle large photo libraries efficiently. Thumbnails are extracted from raw image files (currently supporting `.arw` Sony format) using native macOS image processing APIs. The system implements a two-level caching strategy (memory + disk) with intelligent memory management to prevent excessive RAM usage.
 
 ## Libraries and Frameworks
