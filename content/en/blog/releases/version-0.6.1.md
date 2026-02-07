@@ -6,14 +6,12 @@ tags = ["changelog","version 0.6.1"]
 categories = ["changelog"]
 +++
 
-### Version 0.6.0 - Feb 5, 2026 (beta release)
+### Version 0.6.1 - Feb 5, 2026 (beta release)
 
 <div class="alert alert-danger" role="alert">
 
 You may test version 0.6.1 to gain a preliminary understanding of PhotoCulling's capabilities. However, since version 0.6.1, there have been several significant code updates. Version 0.6.2 is scheduled for release sometime next week. 
 
 </div>
-
-Beta version 0.6.1 is updated:
 
 Please see the [Full Changelog](https://github.com/rsyncOSX/PhotoCulling/compare/v0.6.0...v0.6.1)
